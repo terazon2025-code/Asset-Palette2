@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Holding } from '../types';
+import { Holding } from '../types.ts';
 
 interface AddAssetModalProps {
   isOpen: boolean;

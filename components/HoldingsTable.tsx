@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { AggregatedHolding, Holding, GroupedData } from '../types';
-import { ChevronRightIcon, PencilIcon, TrashIcon } from './icons';
-import { getTypeColor, getGeneralColor } from '../constants';
-import { ChartView } from './Dashboard';
+import { AggregatedHolding, Holding, GroupedData } from '../types.ts';
+import { ChevronRightIcon, PencilIcon, TrashIcon } from './icons.tsx';
+import { getTypeColor, getGeneralColor } from '../constants.ts';
+import { ChartView } from './Dashboard.tsx';
 
 
 interface HoldingsTableProps {

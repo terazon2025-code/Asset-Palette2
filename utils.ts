@@ -1,4 +1,5 @@
-import { Holding, PortfolioData, AggregatedHolding, GroupedData } from './types';
+
+import { Holding, PortfolioData, AggregatedHolding, GroupedData } from './types.ts';
 
 export const assetTypeOrder: { [key: string]: number } = {
   '国内株式': 1, '米国株式': 2, '中国株式': 3, 'アセアン株式': 4,

@@ -1,11 +1,11 @@
 
 import React, { useRef, useCallback, useState } from 'react';
-import { PortfolioData, Holding, NamedPortfolioData } from '../types';
-import Header from './Header';
-import SummaryCard from './SummaryCard';
-import PortfolioPieChart from './PortfolioPieChart';
-import HoldingsTable from './HoldingsTable';
-import AddAssetModal from './AddAssetModal';
+import { PortfolioData, Holding, NamedPortfolioData } from '../types.ts';
+import Header from './Header.tsx';
+import SummaryCard from './SummaryCard.tsx';
+import PortfolioPieChart from './PortfolioPieChart.tsx';
+import HoldingsTable from './HoldingsTable.tsx';
+import AddAssetModal from './AddAssetModal.tsx';
 
 interface DashboardProps {
   individualPortfolios: NamedPortfolioData[];

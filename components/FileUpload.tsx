@@ -1,7 +1,8 @@
+
 import React, { useState, useCallback, useRef } from 'react';
-import { Holding, NamedPortfolioData } from '../types';
-import { UploadIcon, TrashIcon } from './icons';
-import { calculatePortfolioData } from '../utils';
+import { Holding, NamedPortfolioData } from '../types.ts';
+import { UploadIcon, TrashIcon } from './icons.tsx';
+import { calculatePortfolioData } from '../utils.ts';
 
 interface FileUploadProps {
   onDataLoaded: (data: NamedPortfolioData[]) => void;

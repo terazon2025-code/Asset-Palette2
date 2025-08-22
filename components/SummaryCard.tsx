@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EyeIcon } from './icons';
+import { EyeIcon } from './icons.tsx';
 
 interface SummaryCardProps {
   totalValue: number;

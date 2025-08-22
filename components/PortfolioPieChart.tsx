@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
-import { getTypeColor, getGeneralColor } from '../constants';
-import { ChartView } from './Dashboard';
+import { getTypeColor, getGeneralColor } from '../constants.ts';
+import { ChartView } from './Dashboard.tsx';
 
 interface ChartDataEntry {
   name: string;

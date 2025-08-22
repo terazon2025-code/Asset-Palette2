@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowLeftIcon, DownloadIcon, PlusIcon } from './icons';
+import { ArrowLeftIcon, DownloadIcon, PlusIcon } from './icons.tsx';
 
 interface HeaderProps {
     onReset: () => void;

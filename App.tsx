@@ -1,8 +1,9 @@
+
 import React, { useState, useCallback } from 'react';
-import { PortfolioData, Holding, NamedPortfolioData } from './types';
-import FileUpload from './components/FileUpload';
-import Dashboard from './components/Dashboard';
-import { calculatePortfolioData } from './utils';
+import { PortfolioData, Holding, NamedPortfolioData } from './types.ts';
+import FileUpload from './components/FileUpload.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import { calculatePortfolioData } from './utils.ts';
 
 interface AppState {
   individual: NamedPortfolioData[];
