@@ -36,9 +36,7 @@
             // Transpile the source code using the globally available Sucrase
             const { code } = window.sucrase.transform(source, {
               transforms: ["typescript", "jsx"],
-              jsxRuntime: "automatic",
-              jsxImportSource: "react",
-              production: false, 
+              jsxRuntime: "classic",
             });
             // Return the transpiled code as a JavaScript module
             return new Response(new Blob([code], { type: 'application/javascript' }));
